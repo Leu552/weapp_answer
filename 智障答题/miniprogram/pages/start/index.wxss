@@ -1,0 +1,110 @@
+/* pages/start/index.wxss */
+.top_pic {
+  width: 337px;
+  height: 72px;
+  left: 20px;
+  position: relative;
+  top: -6%;
+}
+.bac {
+  width: 375px;
+  height: 610px;
+  background-color: rgb(246,195,68);
+}
+.msg {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  height: 10%;
+}
+.ifm_text {
+  color: white;
+  font-size: 65%;
+  position: relative;
+  top: 15%;
+}
+.ifm {
+  height: 90%;
+  width: 95%;
+  background: rgb(237, 96, 45);
+  position: relative;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border:3px red;
+  text-align: center;
+}
+.tim {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  border-radius: 3px;
+  border: 1px;
+  width: 95%;
+  height: 35%;
+  background: white;
+  text-align: center;
+  font-size: 80%;
+}
+.countDown {
+  width: 20%;
+  height: 10%;
+  font-size: 80%;
+  position: relative;
+  top: 20%;
+}
+.pro {
+  width: 100%;
+  height: 10%;
+  font-size: 85%;
+  position: relative;
+  top: 20%;
+
+}
+.choice {
+  width: 100%;
+  height: 35%;
+  position: relative;
+  top: 20%;
+  font-size: 80%;
+
+}
+.radio {
+  margin: 2% 0;
+  transform:scale(0.95);
+}
+.return {
+  width: 20%;
+  height: 4%;
+  background-color:  rgb(237, 96, 45);
+  border-radius: 3px;
+  border: 1px;
+  text-align: center;
+  top: 2%;
+  left: 1%;
+  position: relative;
+  color: white;
+  font-size: 80%;
+}
+.btn {
+  font-size: 80%;
+  background-color:  rgb(237, 96, 45);
+  color: whitesmoke;
+}
+.ifm_text {
+  background-color:  rgb(237, 96, 45);
+}
+.ifm_text::after {
+  border: 0;
+}
+.radio-group {
+  display: flex;
+  flex-direction: column;
+}
+.btn2 {
+    transform:scale(0.90);
+    position: relative;
+  background-color: rgb(246,195,68);
+  
+}

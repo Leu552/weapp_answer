@@ -1,0 +1,4 @@
+/**app.wxss**/
+ pages {
+   background-color: rgb(246,195,68);
+ }

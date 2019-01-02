@@ -1,0 +1,21 @@
+<!--pages/index/home.wxml-->
+<view class='container'>
+
+  <view class='main'>
+    <view class='top_pic'>
+      <image src='../../images/logo.jpg' mode='aspectFit'></image>
+    </view>
+    <view class='write'>
+      <text class='write_msgg'>你的姓名是：{{userName}}</text>
+      <text class='write_msgg'>你的手机是：{{mobile}}</text>
+      <text class='write_msg'>成绩是:{{grades}}</text>
+    </view>
+    <view class='msg'>
+      <view class='ifm'><button class='ifm_text' bindtap='start' >提交作答</button></view>
+    </view>
+  </view>
+
+
+</view>
+
+

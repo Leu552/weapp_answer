@@ -1,0 +1,20 @@
+<view class="bac">
+<view class='return'><button bindtap='back' class='btn'>返回</button></view>
+<view class='top_pic'>
+  <image src='../../images/logo.jpg' mode='aspectFit'></image>
+</view>
+<view class='countDown'>倒计时：<text style='color:red'>{{countDownNum}}</text>s</view>
+<view class='pro' >题目{{question.id}}: {{question.questions}}。</view>
+<view class='choice' style="display:flex;" >
+<radio-group class="radio-group" bindchange="radioChange" disabled='{{ifClick}}'>
+  <radio value='a' checked='true'>A.<label class="radio">{{question.a_answer}}</label></radio>
+  <radio value='b'>B.<label class="radio">{{question.b_answer}}</label></radio>
+  <radio value='c'>C.<label class="radio">{{question.c_answer}}</label></radio>
+  <radio value='d'>D.<label class="radio">{{question.d_answer}}</label></radio>
+</radio-group>
+</view>
+<view class='msg'>
+  <view class='ifm'><button bindtap='next' class='ifm_text'>下一题</button></view>
+  <view class='tim'><text class='time' wx:if="{{hide}}">正确答案是：{{ans.right_answer}}</text></view>
+</view>
+</view>

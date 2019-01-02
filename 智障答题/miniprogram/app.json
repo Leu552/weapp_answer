@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/rule/rule",
+    "pages/rank/rank",
+    "pages/start/index",
+    "pages/login/login"
+  ],
+
+  "window": {
+    "backgroundColor": "#eec35d",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eec35d",
+    "navigationBarTitleText": "创建全国文明城市知识竞赛",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fcf4d4",
+    "color": "black",
+    "selectedColor": "orange",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "/images/activehome.png",
+        "iconPath": "/images/home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "/images/activerank.png",
+        "iconPath": "/images/rank.png",
+        "pagePath": "pages/rule/rule",
+        "text": "规则"
+      },
+      {
+        "selectedIconPath": "/images/activerule.png",
+        "iconPath": "/images/rule.png",
+        "pagePath": "pages/rank/rank",
+        "text": "排行"
+      }
+    ]
+  }
+}

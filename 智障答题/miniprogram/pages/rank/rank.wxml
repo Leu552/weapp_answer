@@ -1,0 +1,16 @@
+<!--pages/index/rulu.wxml-->
+<view class='bac'>
+  <view class='main'>
+    <view class='msg'>
+      <view class='ifm'><text class='ifm_text'>排行榜</text></view>
+    </view>
+    <view class='mid'>
+      <view class='line' wx:for="{{rank}}" wx:key="{{index}}">
+        <view class='rank'><text>{{item.id}}</text></view>
+        <view class='name'><text>{{item.name}}</text></view>
+        <view class='point'>得分：{{item.grades}}</view>
+      </view>
+    </view>
+  </view>
+
+</view>

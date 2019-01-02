@@ -1,0 +1,23 @@
+<!--pages/index/rulu.wxml-->
+<view class='bac'>
+  <view class='main'>
+    <view class='msg'>
+      <view class='ifm'><text class='ifm_text'>活动时间</text></view>
+      <view class='tim'><text class='time'>2018年12月10日-12月16日</text></view>
+      <view class='ifm'><text class='ifm_text'>活动说明</text></view>
+
+    </view>
+        <view class='full'>
+        <view class='sentence1'><text class='word'>活动说明：</text></view>
+        <view class='sentence'><text>1、参赛者关注“文明红寺堡”微信公众号，关注后回复“创城”点击“创建全国文明城市知识竞赛”活动链接，即可参与竞赛答题。
+</text></view>
+        <view class='sentence'><text>2、试题共有140道，每题1分，分为7天答题，每天20道题，答题结束后系统将自动打分排名。
+</text></view>
+        <view class='sentence'><text>3、本次活动结束后，主办方将按累计得分排名给予相应奖励，得分相同者按答题时间在前者为先。
+</text></view>
+      </view>
+  </view>
+  
+  
+
+</view>

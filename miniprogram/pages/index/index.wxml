@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+<view>{{ msg }}</view>
+<button bindtap="clickMe">点击我</button>
+
+</view>
